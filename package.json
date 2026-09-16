@@ -1,0 +1,18 @@
+{
+  "name": "discord-iq-bot",
+  "version": "1.0.0",
+  "description": "بوت ديسكورد لاختبار تحديد نسبة الذكاء (IQ) بأسئلة متنوعة",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
